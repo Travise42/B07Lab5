@@ -1,5 +1,6 @@
 package lab5;
 
+
 /**
  * Circle represents a circle with a given radius and position.
  * @author Alex Y
@@ -10,7 +11,7 @@ public class Circle {
 
     public Circle(Point center, double radius) {
         this.center = center;
-        this.radius = radius;
+        this.radius = Math.abs(radius);
     }
     
     /**
